@@ -73,7 +73,7 @@ async function getQuote() {
         removeLoadingSpinner();
 
     } catch(error) {
-        // getQuote();
+        getQuote();
         console.log('Whoopps, no quote', error)
 
     }
@@ -91,9 +91,8 @@ function tweetQuote() {
 
 
 // On Load
-// getQuote();
+getQuote();
 
-complete()
 
 
 
